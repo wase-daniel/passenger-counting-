@@ -1,12 +1,6 @@
-//document.getElementById("c").innerText = 7
-
-  // function increment() {
-  //   console.log("the button was clicked ")
-  // }
-
-  function dan(ef) {
-   
-    console.log(42)
-
-  }
-dan()
+//document.getElementById("c").innerText = 7//
+ let count = 0 
+   function increment() {
+    count = count ++
+    console.log(count)
+   }
