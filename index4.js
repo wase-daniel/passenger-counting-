@@ -4,7 +4,7 @@ let lops = 0
 function increment(){
  
    lops ++
-   console.log(lops) 
+   console.log(lops  ) 
 
 }
  
