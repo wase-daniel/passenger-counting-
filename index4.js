@@ -1,20 +1,18 @@
 //document.getElementById("c").innerText = 7//
 countEl = document.getElementById("c")
 
-console.log(countEl)
-
-
-
-
-
-let lops = 0
-
+let map = 0
 function increment(){
- 
-   lops ++
-  countEl.innerText = lops
-
-   
+   map++
+   countEl.innerText = map
 
 }
+
+function save(){
+   console.log(map)
+}
+save()
+
+
+
  
