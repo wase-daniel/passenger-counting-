@@ -1,18 +1,11 @@
 //document.getElementById("c").innerText = 7//
-countEl = document.getElementById("c")
+let welcomeEl = document.getElementById("welcome-el")
+   
+let name ="  wase daniel"
 
-let map = 0
-function increment(){
-   map++
-   countEl.innerText = map
+let greeting = "welcomeback"
 
-}
-
-function save(){
-   console.log(map)
-}
-save()
+   welcomeEl.innerText = greeting + name
 
 
 
- 
