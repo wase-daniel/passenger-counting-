@@ -2,7 +2,7 @@
 
 let countEl=document.getElementById("c")
 let count = 0
-function incement(){
+function increment(){
 
    count += 1
 
