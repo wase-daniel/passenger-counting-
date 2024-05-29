@@ -14,8 +14,8 @@ function increment(){
 
 function save(){
    let combiner = count + " - "
-   saveEl.innerText = combiner
-   console.log(count)   
+   saveEl.innerText += combiner
+   console.log( count)   
 }
 
 
