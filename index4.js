@@ -7,15 +7,17 @@ let count = 0
 
 function increment(){
 
-   count ++ 
+   count += 
 
    countEl.innerText = count
+   
 }
 
 function save(){
    let combiner = count + " - "
-   saveEl.innerText += combiner
-   console.log( count)   
+   saveEl.textContent += combiner
+   
+   console.log(count)   
 }
 
 
