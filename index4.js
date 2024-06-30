@@ -7,19 +7,17 @@ let count = 0
 
 function increment(){
 
-   count++
+   count += 1
    countEl.innerText = count
-   console.log("you have incremented by",count )
     
 }
 
 function save(){
    let combiner = count + " - "
    saveEl.textContent += combiner
-   
-   console.log("the saved value is ",count)   
    countEl.textContent = 0
-   saveEl.textContent = count
+   count = 0
+   
 }
    
 
